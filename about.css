@@ -1,0 +1,12 @@
+.details{
+    position: relative;
+    top: 100px;
+    font-size: large;
+}
+
+.details .text{
+    text-align: start;
+}
+.block{
+    padding: 0px 30px;
+    }

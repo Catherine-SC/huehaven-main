@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Palette Generator</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles2.css">
+    <link rel="stylesheet" href="basecolor.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+<script src="https://cdn.jsdelivr.net/npm/colornamer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/color-thief/2.3.2/color-thief.umd.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/tinycolor2@1.4.2/tinycolor.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="left-par">
+            <h1>HueHaven</h1>
+        </div>
+        <div class="right-par">
+            <nav>
+                <ul>
+                    <div class="col">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="color.html">Color Theory</a></li>
+                        <!-- <li><a href="#"dark-mode-toggle">🌙 Dark Mode</a></li> -->
+                        <button id="dark-mode-toggle">🌙 Dark Mode</button>
+                        
+                    </div>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <select id="profession-selector">
+            <option value="default">Select a Profession</option>
+            <option value="social-media">Social Media Creator</option>
+            <option value="corporate">Corporate Branding</option>
+            <option value="health">Health & Wellness</option>
+            <option value="ecommerce">E-commerce</option>
+            <option value="education">Education</option>
+            <option value="Gaming">Gaming</option>
+            <option value="Photography">Photography</option>
+            <option value="Interior Decor">Interior Decor</option>
+            <option value="Publishing">Publishing</option>
+            <option value="Game development">Game development</option>
+            <option value="Cosmetics and Beauty">Cosmetics and Beauty</option>
+            <option value="Resume and portfolio design">Resume and portfolio design</option>
+            <option value="Animations and CGI">Animations and CGI</option>
+            <option value="Concept Art">Concept Art</option>
+
+        </select>
+        
+        
+        <button onclick="generateProfessionalPalette()">Generate Palette</button>
+            
+                <h1>Random Color Palette Generator</h1>
+                <div class="palette">
+                    <div class="color-box" onclick="copyColor(this)"><span>#000000</span></div>
+                    <div class="color-box" onclick="copyColor(this)"><span>#000000</span></div>
+                    <div class="color-box" onclick="copyColor(this)"><span>#000000</span></div>
+                    <div class="color-box" onclick="copyColor(this)"><span>#000000</span></div>
+                </div>
+                <button onclick="generateRandomPalette()">Generate Palette</button>
+            <button onclick="copyAllColors()">📋 Copy All Colors</button>
+            <button onclick="savePalette()">💾 Search in Pinterest</button>
+            <button onclick="sharePalette()">🚀 Share Palette</button>
+    </div>
+    <!-- <div class="hextocolor">
+        <h2>HEX to Color Name Converter</h2>
+        <input type="text" id="hexInput" name="text input" placeholder="Enter HEX code (e.g. #FF5733)">
+        <button onclick="convertHex()">Convert</button>
+    </div> -->
+    <div class="baseColor">
+        <h2>🎨 Color Palette Generator from Hex code</h2>
+    <input type="text" id="baseColor" placeholder="Enter Base HEX Color (e.g., #FF5733)">
+    <button onclick="generatePalette()">Generate Palette</button>
+
+    <h3>Suggested Palette:</h3>
+    <div class="palette-display" id="paletteDisplay"></div>
+    </div>
+    
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 HueHaven. All rights reserved.</p>
+            <h><li><a href="contact">Contact us</a></li></h>
+            <div class="social-icons">
+                <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+        
+
+    </footer>
+    <script src="script.js"></script>
+    <script src="hex.js"></script>
+</body>
+</div>
+</html>

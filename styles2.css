@@ -1,0 +1,138 @@
+
+footer {
+    text-align: center; /* Centered text */
+    padding: 10px 0; /* Padding */
+    background-color: #f1f1f1; /* Light gray background */
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    /* *{
+        background-color: #222; /* Dark footer background 
+        color: white;
+        text-align: center;
+        padding: 20px 0;
+    } */
+    
+    .footer-content {
+        max-width: 1200px;
+        margin: auto;
+    }
+    
+    .social-icons {
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+    }
+    
+    .social-icons a {
+        font-size: 24px;
+        color: white; /* Default icon color */
+        text-decoration: none;
+        transition: color 0.5s ease-in-out, transform 0.3s;
+        opacity: 0.7;
+    }
+    
+    /* Hover Effect: Fade-in & Fade-out */
+    .social-icons a:hover {
+        .fab{
+            color: #222;
+        }
+        color: #007bff; /* Change to blue */
+        animation: fadeInOut 1s ease-in-out;
+        transform: scale(1.2);
+    }
+    
+    /* Keyframes for fade-in and fade-out effect */
+    @keyframes fadeInOut {
+        0%, 100% {
+            opacity: 0.5;
+        }
+        50% {
+            opacity: 1;
+        }
+    }
+}
+
+header h1{
+    margin: 0px;
+}
+
+.left-par{
+    display: flex;
+    align-items: center;
+    
+}
+.right-par{
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.right-par .col{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.dark-mode {
+    background-color: #222;
+    color: white;
+    a{
+        color: white;
+    }
+    h1{
+        color: white;
+    }
+    footer{
+        background-color: rgb(0, 0, 0);
+    }
+    .social-icons i {
+        color: white;
+    }
+
+    .social-icons a:hover .fab{
+        color: rgb(167, 167, 167);
+    }
+
+}
+
+header button{
+    margin: -10px;
+}
+
+.container{
+    position: relative;
+    top: 130px;
+}
+
+
+
+.hextocolor{
+    display: flex;
+    position: relative;
+    top: 500px;
+    justify-content: center;
+}
+
+.paletteDisplay{
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+.social-icons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 20px;
+    color:black
+}
+
+.social-icons i {
+    color: black;
+  }
+
+
+
+c{
+    font-size: large;
+    top: 200;
+}
