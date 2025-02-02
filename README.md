@@ -1,6 +1,9 @@
 # 🎨 Hue Haven: Color Palette Generator
 
-Welcome to **Hue Haven**, a creative color palette generator designed to inspire designers, artists, and creators. Whether you're crafting a brand, designing an interface, or just exploring colors, our smart tools help you generate, customize, and discover unique palettes effortlessly. Let color spark your next great idea!  
+Welcome to **Hue Haven**, a creative color palette generator designed to inspire designers, artists, and creators. Whether you're crafting a brand, designing an interface, or just exploring colors, our smart tools help you generate, customize, and discover unique palettes effortlessly. Let color spark your next great idea! 
+
+URL:
+https://catherine-sc.github.io/huehaven-main/
 
 ## 🚀 Features  
 
