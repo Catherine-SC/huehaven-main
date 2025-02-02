@@ -24,7 +24,9 @@ Clone the repository:
 ```sh
 [git clone https://github.com/your-username/hue-haven.git](https://catherine-sc.github.io/huehaven-main/)
 
-Link:
+## LINK
+
+Copy the link:
 
 ```sh
 https://catherine-sc.github.io/huehaven-main/
