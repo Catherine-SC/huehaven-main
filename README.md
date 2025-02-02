@@ -22,12 +22,4 @@ Welcome to **Hue Haven**, a creative color palette generator designed to inspire
 Clone the repository:  
 
 ```sh
-[git clone https://github.com/your-username/hue-haven.git](https://catherine-sc.github.io/huehaven-main/)
-
-## LINK
-
-Copy the link:
-
-```sh
-https://catherine-sc.github.io/huehaven-main/
-
+git clone https://github.com/catherine-sc/huehaven-main.git
