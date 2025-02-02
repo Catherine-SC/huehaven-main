@@ -5,6 +5,14 @@ Welcome to **Hue Haven**, a creative color palette generator designed to inspire
 URL:
 https://catherine-sc.github.io/huehaven-main/
 
+Screenshot:
+![SRC](https://github.com/user-attachments/assets/10bd3957-37b2-4834-96ef-2ed1a9d71165)
+![Screenshot (1)](https://github.com/user-attachments/assets/eef5d9b1-05eb-41ff-9f47-306c3c9e930f)
+Group CodeBenders:
+![1000279244](https://github.com/user-attachments/assets/a539fb75-20d5-4886-a5ca-53114456a8b7)
+
+
+
 ## 🚀 Features  
 
 ✅ **Smart Palette Generation** – Instantly generate beautiful color palettes with AI-powered suggestions.  
@@ -26,3 +34,4 @@ Clone the repository:
 
 ```sh
 git clone https://github.com/catherine-sc/huehaven-main.git
+
